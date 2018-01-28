@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_marginLeft="35dp"
+        android:layout_width="325dp"
+        android:layout_height="wrap_content"
+        android:text="Hello User "
+        android:id="@+id/welcome"
+        android:textStyle="bold"
+        android:textSize="35dp"
+        android:textColor="#00008B"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:layout_alignParentLeft = "true"
+        android:layout_alignParentStart = "true"
+        android:layout_alignParentRight = "true"
+        android:layout_alignParentEnd = "true"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="All registered users are:" />
+
+    <TextView
+        android:id="@+id/users"
+        android:text="default"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+   <LinearLayout
+
+       android:orientation="vertical"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+
+       <TextView
+           android:text="Public key of user"
+           android:id="@+id/publickey"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content" />
+       <TextView
+           android:text="Private key of user"
+           android:id="@+id/privatekey"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content" />
+       <TextView
+           android:text="Session key of user"
+           android:id="@+id/sessionkey"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content" />
+   </LinearLayout>
+</LinearLayout>
